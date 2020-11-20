@@ -27,3 +27,12 @@
 <br>
 
 <%= link_to 'New Article', new_article_path %>
+
+
+<!-- app/views/articles/index.html.erb -->
+<%= cl_image_tag("uryh4xtgbu7q1e9ynyut",
+      width: 400, height: 300, crop: :fill) %>
+
+<!-- for face detection -->
+<%= cl_image_tag("qtl9tw4vxjjsoscktsig",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
